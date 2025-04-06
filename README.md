@@ -2,4 +2,4 @@
 
 Trabajo realizado por Israel Valderrama García
 
-## [Investigación RAM](#investigación.md)
+## [Investigación RAM](./investigacion.md)
