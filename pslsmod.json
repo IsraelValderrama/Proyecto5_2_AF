@@ -1,0 +1,47 @@
+Volatility 3 Framework 2.26.1
+
+Offset	Module Name	Code Size	Taints	Load Arguments	File Output
+
+0xffffc0289040	lime	0x5000	OOT_MODULE,UNSIGNED_MODULE	timeout=1000, digest=, localhostonly=0, format=3M, dio=0, path=p5M	N/A
+0xffffc03bd240	ufs	0x12000			N/A
+0xffffc029b080	msdos	0x5000			N/A
+0xffffc037a7c0	xfs	0xef000			N/A
+0xffffc027a180	serio_raw	0x4000			N/A
+0xffffc02ba380	ib_iser	0xc000		pi_guard=0, pi_enable=N, always_register=Y, max_sectors=1024, max_lun=512, debug_level=0	N/A
+0xffffc02a7100	rdma_cm	0xc000			N/A
+0xffffc0293280	iw_cm	0xb000			N/A
+0xffffc0266340	ib_cm	0xb000			N/A
+0xffffc02830c0	ib_sa	0x9000			N/A
+0xffffc0274080	ib_mad	0xc000		recv_queue_size=512, send_queue_size=128	N/A
+0xffffc0253fc0	ib_core	0x1a000			N/A
+0xffffc022e100	ib_addr	0x5000			N/A
+0xffffc00f7300	iscsi_tcp	0x5000		debug_iscsi_tcp=0, max_lun=4294967295	N/A
+0xffffc0227000	libiscsi_tcp	0x6000		debug_libiscsi_tcp=0	N/A
+0xffffc023a040	libiscsi	0xd000		debug_libiscsi_eh=0, debug_libiscsi_session=0, debug_libiscsi_conn=0	N/A
+0xffffc0218880	scsi_transport_iscsi	0x19000		debug_conn=0, debug_session=0	N/A
+0xffffc02065c0	autofs4	0xa000			N/A
+0xffffc01de340	btrfs	0xf2000			N/A
+0xffffc0105100	raid10	0xc000		max_queued_requests=1024	N/A
+0xffffc00eed80	raid456	0x1b000		devices_handle_discard_safely=N	N/A
+0xffffc00d5080	async_raid6_recov	0x5000			N/A
+0xffffc00cf080	async_memcpy	0x4000			N/A
+0xffffc00ca0c0	async_pq	0x4000			N/A
+0xffffc00c50c0	async_xor	0x4000			N/A
+0xffffc00c0080	async_tx	0x4000			N/A
+0xffffc00b70c0	xor	0x6000			N/A
+0xffffc00ab000	raid6_pq	0x19000			N/A
+0xffffc0092000	libcrc32c	0x4000			N/A
+0xffffc0089180	raid1	0x9000		max_queued_requests=1024	N/A
+0xffffc007f340	raid0	0x5000			N/A
+0xffffc005b0c0	multipath	0x4000			N/A
+0xffffc00790c0	linear	0x4000			N/A
+0xffffc0071280	crct10dif_pclmul	0x4000			N/A
+0xffffc0069180	crc32_pclmul	0x4000			N/A
+0xffffc0064340	ghash_clmulni_intel	0x4000			N/A
+0xffffc0052380	aesni_intel	0x29000			N/A
+0xffffc002c140	aes_x86_64	0x5000			N/A
+0xffffc0023080	lrw	0x4000			N/A
+0xffffc001c000	gf128mul	0x4000			N/A
+0xffffc0015000	glue_helper	0x4000			N/A
+0xffffc000e000	ablk_helper	0x4000			N/A
+0xffffc0005080	cryptd	0x5000			N/A

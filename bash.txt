@@ -1,0 +1,87 @@
+Volatility 3 Framework 2.26.1
+
+PID	Process	CommandTime	Command
+
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo apt install apache2 libapache2-mod-php php-mysql
+9126	bash	2018-07-24 05:24:19.000000 UTC	ps -ef | grep apache
+9126	bash	2018-07-24 05:24:19.000000 UTC	cd /etc/apache
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo apt update
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo apt upgrade
+9126	bash	2018-07-24 05:24:19.000000 UTC	cd /etc/apache2
+9126	bash	2018-07-24 05:24:19.000000 UTC	ls -l
+9126	bash	2018-07-24 05:24:19.000000 UTC	cd sites-enabled/
+9126	bash	2018-07-24 05:24:19.000000 UTC	ls -l
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo vi 000-default.conf 
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo vi ../apache2.conf 
+9126	bash	2018-07-24 05:24:19.000000 UTC	grep Listen ../*
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo vi ../ports.conf 
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo service apache2 restart
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo apt install mysql-client-core-5.7
+9126	bash	2018-07-24 05:24:19.000000 UTC	cd html
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo letsencrypt --authenticator webroot --installer apache --webroot-path /var/www/html -d ganga.site -d www.ganga.site
+9126	bash	2018-07-24 05:24:19.000000 UTC	mysql -uadmin -p -hganga.ctmbcxcdb3us.eu-central-1.rds.amazonaws.com ganga
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo chown -R www-data:www-data wordpress
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo letsencrypt --authenticator webroot --installer apache --webroot-path /var/www/html -d ganga.site -d www.ganga.site
+9126	bash	2018-07-24 05:24:19.000000 UTC	mysql -u admin -p -h ganga.ctmbcxcdb3us.eu-central-1.rds.amazonaws.com
+9126	bash	2018-07-24 05:24:19.000000 UTC	ls -l ../mods-enabled/
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo a2enmod ssl
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo letsencrypt --authenticator webroot --installer apache --webroot-path /var/www/html -d ganga.site -d www.ganga.site
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo vi /etc/apache2/sites-available/000-default.conf 
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo letsencrypt --apache -d ganga.site -d www.ganga.site
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo apt-get install python-letsencrypt-apache
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo letsencrypt --apache -d ganga.site -d www.ganga.site
+9126	bash	2018-07-24 05:24:19.000000 UTC	letsencrypt
+9126	bash	2018-07-24 05:24:19.000000 UTC	letsnecrypot
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo apt-get install python-certbot-apache
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo letsencrypt --apache -d ganga.site -d www.ganga.site
+9126	bash	2018-07-24 05:24:19.000000 UTC	certbot
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo service apache2 restart
+9126	bash	2018-07-24 05:24:19.000000 UTC	mysql -u admin -p -h ganga.ctmbcxcdb3us.eu-central-1.rds.amazonaws.com
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo vi /etc/apache2/sites-enabled/000-default-le-ssl.conf 
+9126	bash	2018-07-24 05:24:19.000000 UTC	apt-cache search certbot
+9126	bash	2018-07-24 05:24:19.000000 UTC	ls -l
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo rm index.html 
+9126	bash	2018-07-24 05:24:19.000000 UTC	cd ..
+9126	bash	2018-07-24 05:24:19.000000 UTC	ls -l ..
+9126	bash	2018-07-24 05:24:19.000000 UTC	cd
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo tar xzf ~/wordpress-4.8.1.tar.gz 
+9126	bash	2018-07-24 05:24:19.000000 UTC	ifconfig
+9126	bash	2018-07-24 05:24:19.000000 UTC	ls -l
+9126	bash	2018-07-24 05:24:19.000000 UTC	mysql -u ganga -p -h ganga.ctmbcxcdb3us.eu-central-1.rds.amazonaws.com
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo service apache2 restart
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo vi /etc/apache2/sites-enabled/000-default-le-ssl.conf 
+9126	bash	2018-07-24 05:24:19.000000 UTC	find /etc/apache2 -type f -exec grep -i Logformat {} \;
+9126	bash	2018-07-24 05:24:19.000000 UTC	find /etc/apche2 -type f -exec grep -i Logformat {} \;
+9126	bash	2018-07-24 05:24:19.000000 UTC	ls -l ~
+9126	bash	2018-07-24 05:24:19.000000 UTC	mysql -uadmin -p -hganga.ctmbcxcdb3us.eu-central-1.rds.amazonaws.com ganga
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo vi /etc/apache2/sites-enabled/000-default-le-ssl.conf 
+9126	bash	2018-07-24 05:24:19.000000 UTC	history
+9126	bash	2018-07-24 05:24:19.000000 UTC	find /etc/apache2 -type f -exec grep -Hi Logformat {} \;
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo service apache restart
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo vi /etc/apache2/sites-enabled/000-default-le-ssl.conf 
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo service apache2 restart
+9126	bash	2018-07-24 05:24:19.000000 UTC	tail /var/log/apache2/access.log 
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo service apache2 restart
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo apt install letsencrypt
+9126	bash	2018-07-24 05:24:19.000000 UTC	cd /var/www/html
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo vi /etc/apache2/sites-enabled/000-default-le-ssl.conf 
+9126	bash	2018-07-24 05:24:19.000000 UTC	exit
+9126	bash	2018-07-24 05:24:19.000000 UTC	tail /var/log/apache2/access.log 
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo service apache2 restart
+9126	bash	2018-07-24 05:24:19.000000 UTC	sudo vi /etc/apache2/sites-enabled/000-default-le-ssl.conf 
+9126	bash	2018-07-24 05:24:31.000000 UTC	git clone https://github.com/504ensicsLabs/LiME.git
+9126	bash	2018-07-24 05:24:36.000000 UTC	ls -l
+9126	bash	2018-07-24 05:24:39.000000 UTC	cd LiME/
+9126	bash	2018-07-24 05:24:41.000000 UTC	ls -l
+9126	bash	2018-07-24 05:24:43.000000 UTC	cd src
+9126	bash	2018-07-24 05:24:44.000000 UTC	ls -l
+9126	bash	2018-07-24 05:24:45.000000 UTC	make
+9126	bash	2018-07-24 05:24:49.000000 UTC	sudo ap install make
+9126	bash	2018-07-24 05:24:53.000000 UTC	sudo apt install make
+9126	bash	2018-07-24 05:24:59.000000 UTC	make
+9126	bash	2018-07-24 05:25:09.000000 UTC	sudo apt install gcc
+9126	bash	2018-07-24 05:25:21.000000 UTC	make
+9126	bash	2018-07-24 05:25:46.000000 UTC	ls -l
+9126	bash	2018-07-24 05:26:45.000000 UTC	sudo insmod lime-4.4.0-1061-aws.ko  "path=memoria.bin"
+9126	bash	2018-07-24 05:26:57.000000 UTC	sudo insmod ./lime-4.4.0-1061-aws.ko  "path=memoria.bin"
+9126	bash	2018-07-24 05:27:03.000000 UTC	sudo insmod ./lime-4.4.0-1061-aws.ko  "path=memoria.bin format=lime"

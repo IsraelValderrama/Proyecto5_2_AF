@@ -1,0 +1,8 @@
+Volatility 3 Framework 2.26.1
+
+NetNS	Index	Interface	MAC	Promiscuous	IP	Prefix	Scope Type	State
+
+4026531993	1	lo	00:00:00:00:00:00	False	127.0.0.1	8	host	UNKNOWN
+4026531993	1	lo	00:00:00:00:00:00	False	::1	128	host	UNKNOWN
+4026531993	2	eth0	06:1d:7a:bb:a9:04	False	172.31.47.60	20	global	UP
+4026531993	2	eth0	06:1d:7a:bb:a9:04	False	fe80::41d:7aff:febb:a904	64	link	UP

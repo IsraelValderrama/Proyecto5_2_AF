@@ -1,0 +1,87 @@
+Volatility 3 Framework 2.26.1
+
+PID	Process	Start	End	Path	Protection	Hexdump	Disasm
+
+5573	apache2	0x7f0663ff3000	0x7f0664033000	Anonymous Mapping	rwx	
+b8 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+53 41 57 41 56 41 55 55 48 8b df 48 81 ec 20 01 SAWAVAUUH..H.. .
+00 00 48 8b 43 10 48 83 e8 01 48 8d 74 24 38 48 ..H.C.H...H.t$8H
+c7 c1 11 00 00 00 48 89 46 08 48 8d 76 08 48 83 ......H.F.H.v.H.	
+0x7f0663ff3000:	mov	eax, 0x17
+0x7f0663ff3005:	add	byte ptr [rax], al
+0x7f0663ff3007:	add	byte ptr [rax], al
+0x7f0663ff3009:	add	byte ptr [rax], al
+0x7f0663ff300b:	add	byte ptr [rax], al
+0x7f0663ff300d:	add	byte ptr [rax], al
+0x7f0663ff300f:	add	byte ptr [rbx + 0x41], dl
+0x7f0663ff3012:	push	rdi
+0x7f0663ff3013:	push	r14
+0x7f0663ff3015:	push	r13
+0x7f0663ff3017:	push	rbp
+0x7f0663ff3018:	mov	rbx, rdi
+0x7f0663ff301b:	sub	rsp, 0x120
+0x7f0663ff3022:	mov	rax, qword ptr [rbx + 0x10]
+0x7f0663ff3026:	sub	rax, 1
+0x7f0663ff302a:	lea	rsi, [rsp + 0x38]
+0x7f0663ff302f:	mov	rcx, 0x11
+0x7f0663ff3036:	mov	qword ptr [rsi + 8], rax
+0x7f0663ff303a:	lea	rsi, [rsi + 8]
+6262	apache2	0x7f0663fb6000	0x7f0663fd6000	Anonymous Mapping	rwx	
+f0 25 00 00 00 00 00 00 00 00 00 00 00 00 00 00 .%..............
+53 41 57 41 56 41 55 55 48 8b df 48 81 ec 80 00 SAWAVAUUH..H....
+00 00 48 8b 43 10 48 83 e8 01 48 89 44 24 40 48 ..H.C.H...H.D$@H
+89 dd 48 89 d8 48 8b 58 08 4c 8b 78 18 48 8b 08 ..H..H.X.L.x.H..	
+6262	apache2	0x7f0663ff5000	0x7f0664035000	Anonymous Mapping	rwx	
+48 09 00 00 00 00 00 00 00 00 00 00 00 00 00 00 H...............
+53 41 57 41 56 41 55 55 48 8b df 48 81 ec 90 00 SAWAVAUUH..H....
+00 00 48 8b 43 10 48 83 e8 01 48 89 44 24 40 48 ..H.C.H...H.D$@H
+89 44 24 48 48 89 44 24 50 48 89 44 24 58 48 89 .D$HH.D$PH.D$XH.	
+0x7f0663ff5000:	or	qword ptr [rax], rax
+0x7f0663ff5003:	add	byte ptr [rax], al
+0x7f0663ff5005:	add	byte ptr [rax], al
+0x7f0663ff5007:	add	byte ptr [rax], al
+0x7f0663ff5009:	add	byte ptr [rax], al
+0x7f0663ff500b:	add	byte ptr [rax], al
+0x7f0663ff500d:	add	byte ptr [rax], al
+0x7f0663ff500f:	add	byte ptr [rbx + 0x41], dl
+0x7f0663ff5012:	push	rdi
+0x7f0663ff5013:	push	r14
+0x7f0663ff5015:	push	r13
+0x7f0663ff5017:	push	rbp
+0x7f0663ff5018:	mov	rbx, rdi
+0x7f0663ff501b:	sub	rsp, 0x90
+0x7f0663ff5022:	mov	rax, qword ptr [rbx + 0x10]
+0x7f0663ff5026:	sub	rax, 1
+0x7f0663ff502a:	mov	qword ptr [rsp + 0x40], rax
+0x7f0663ff502f:	mov	qword ptr [rsp + 0x48], rax
+0x7f0663ff5034:	mov	qword ptr [rsp + 0x50], rax
+0x7f0663ff5039:	mov	qword ptr [rsp + 0x58], rax
+6266	apache2	0x7f0664025000	0x7f0664035000	Anonymous Mapping	rwx	
+30 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0...............
+53 41 57 41 56 41 55 55 48 8b df 48 83 ec 50 48 SAWAVAUUH..H..PH
+8b 43 10 48 83 e8 01 48 89 44 24 40 48 89 dd 48 .C.H...H.D$@H..H
+89 d8 48 8b 58 08 4c 8b 78 18 48 8b 08 8b 40 40 ..H.X.L.x.H...@@	
+0x7f0664025000:	xor	byte ptr [rdx], al
+0x7f0664025002:	add	byte ptr [rax], al
+0x7f0664025004:	add	byte ptr [rax], al
+0x7f0664025006:	add	byte ptr [rax], al
+0x7f0664025008:	add	byte ptr [rax], al
+0x7f066402500a:	add	byte ptr [rax], al
+0x7f066402500c:	add	byte ptr [rax], al
+0x7f066402500e:	add	byte ptr [rax], al
+0x7f0664025010:	push	rbx
+0x7f0664025011:	push	r15
+0x7f0664025013:	push	r14
+0x7f0664025015:	push	r13
+0x7f0664025017:	push	rbp
+0x7f0664025018:	mov	rbx, rdi
+0x7f066402501b:	sub	rsp, 0x50
+0x7f066402501f:	mov	rax, qword ptr [rbx + 0x10]
+0x7f0664025023:	sub	rax, 1
+0x7f0664025027:	mov	qword ptr [rsp + 0x40], rax
+0x7f066402502c:	mov	rbp, rbx
+0x7f066402502f:	mov	rax, rbx
+0x7f0664025032:	mov	rbx, qword ptr [rax + 8]
+0x7f0664025036:	mov	r15, qword ptr [rax + 0x18]
+0x7f066402503a:	mov	rcx, qword ptr [rax]
+0x7f066402503d:	mov	eax, dword ptr [rax + 0x40]
